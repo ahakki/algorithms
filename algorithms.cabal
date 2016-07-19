@@ -1,8 +1,8 @@
 name:                algorithms
 version:             0.1.0.0
-synopsis:            Algorithm for finding all prime numbers up to any limit
+synopsis:            Just some werk
 description:         Don't use this, use a real lib instead
-homepage:            https://github.com/githubuser/sieve#readme
+homepage:            ahakki.xyz
 license:             BSD3
 license-file:        LICENSE
 author:              Alexander Hakki
