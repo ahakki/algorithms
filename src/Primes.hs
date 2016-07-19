@@ -1,7 +1,9 @@
-module Eratosthenes where
+module Primes where
 
-sieve n =
-    sieve' [2..n] []
+-- Sieve of Eratosthenes
+sieve :: Integral a => a -> [a]
+sieve l =
+    sieve' [2..l] []
   where
     sieve' (p:ns) ps =
         sieve' (filter (\x -> rem x p /= 0) ns) (p : ps)
