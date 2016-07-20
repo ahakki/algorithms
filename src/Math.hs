@@ -12,9 +12,9 @@ sieve l =
 
 condFoldl cond action (x:y:ys)
     | cond x y =
-        x : condFoldl cond action (y : ys)
+        action x : y : condFoldl cond action ys
     | otherwise =
-        [action x, y] ++ condFoldl cond action ys
+        x : condFoldl cond action (y : ys)
 
 condFoldl _ _ [x] =
     [x]
