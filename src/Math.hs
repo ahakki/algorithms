@@ -12,7 +12,7 @@ sieve l =
 
 -- this compares each element of the list with the element
 -- after it, and if the condition (cond) is met, applies an
--- to it.
+-- action to it.
 condFoldl cond action (x:y:ys)
     | cond x y =
         action x : y : condFoldl cond action ys
