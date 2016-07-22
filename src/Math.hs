@@ -1,4 +1,4 @@
-module Primes where
+module Math where
 
 -- Sieve of Eratosthenes
 sieve :: Integral a => a -> [a]
