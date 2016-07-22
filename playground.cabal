@@ -1,4 +1,4 @@
-name:                algorithms
+name:                playground
 version:             0.1.0.0
 synopsis:            Just some werk
 description:         Don't use this, use a real lib instead
@@ -8,7 +8,7 @@ license-file:        LICENSE
 author:              Alexander Hakki
 maintainer:          ahk@ahakki.xyz
 copyright:           2016 Alexander Hakki
-category:            Algorithms
+category:            toys
 build-type:          Simple
 cabal-version:       >=1.10
 
@@ -21,4 +21,4 @@ library
 
 source-repository head
   type:     git
-  location: https://github.com/ahakki/sieve-of-eratosthenes
+  location: https://github.com/ahakki/playground
